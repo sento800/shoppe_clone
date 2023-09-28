@@ -1,0 +1,30 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --text-color: #ccc;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
